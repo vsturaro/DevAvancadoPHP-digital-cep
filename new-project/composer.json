@@ -1,0 +1,12 @@
+{
+    "name": "vander/new-project",
+    "authors": [
+        {
+            "name": "Vander",
+            "email": "vstecnologia@gmail.om"
+        }
+    ],
+    "require": {
+        "vander/digital-cep": "^1.0"
+    }
+}

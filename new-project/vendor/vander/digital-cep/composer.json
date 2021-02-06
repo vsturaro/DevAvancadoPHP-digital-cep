@@ -1,0 +1,23 @@
+{
+    "name": "vander/digital-cep",
+    "description": "Busca de CEP on-line",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Vandercleison",
+            "email": "vstecnologia@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.2.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "Search": "src/"
+        },
+        "psr-4": {
+            "Vander\\DigitalCep\\": "src/"
+        }
+    }
+}

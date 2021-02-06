@@ -1,0 +1,52 @@
+{
+    "packages": [
+        {
+            "name": "vander/digital-cep",
+            "version": "1.0.0",
+            "version_normalized": "1.0.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/vsturaro/DevAvancadoPHP-digital-cep.git",
+                "reference": "834eada50b51826a85a35895be8338c53e241857"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/vsturaro/DevAvancadoPHP-digital-cep/zipball/834eada50b51826a85a35895be8338c53e241857",
+                "reference": "834eada50b51826a85a35895be8338c53e241857",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.2.0"
+            },
+            "time": "2021-02-06T20:56:17+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-0": {
+                    "Search": "src/"
+                },
+                "psr-4": {
+                    "Vander\\DigitalCep\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Vandercleison",
+                    "email": "vstecnologia@gmail.com"
+                }
+            ],
+            "description": "Busca de CEP on-line",
+            "support": {
+                "issues": "https://github.com/vsturaro/DevAvancadoPHP-digital-cep/issues",
+                "source": "https://github.com/vsturaro/DevAvancadoPHP-digital-cep/tree/1.0.0"
+            },
+            "install-path": "../vander/digital-cep"
+        }
+    ],
+    "dev": true,
+    "dev-package-names": []
+}
